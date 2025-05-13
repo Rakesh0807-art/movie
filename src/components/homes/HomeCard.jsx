@@ -26,7 +26,7 @@ const HomeCard = ({ item: { id, cover, name, rating, time, desc, starring, genre
             <p>{desc}</p>
             <div className='cast'>
               <h4>
-                <span>Starring </span>
+                <span>Actors </span>
                 {starring}
               </h4>
               <h4>
@@ -39,7 +39,7 @@ const HomeCard = ({ item: { id, cover, name, rating, time, desc, starring, genre
               </h4>
             </div>
             <button className='primary-btn'>
-              <i className='fas fa-play'></i> PLAY NOW
+              <i className='fas fa-play'></i> Rate & Comment 
             </button>
           </div>
           <div className='palyButton row'>

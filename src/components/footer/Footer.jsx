@@ -9,13 +9,13 @@ const Footer = () => {
         <div className='container'>
           <div className='box'>
             <ul className='flex'>
-              <li>Terms of Use</li>
-              <li>Privacy-Policy</li>
-              <li>Blog</li>
-              <li>FAQ</li>
-              <li>Watch List</li>
+              <li>Movie Details</li>
+              <li>Search</li>
+              <li>Ratings</li>
+              <li>Saved Movies</li>
+              <li>Buy Movies</li>
             </ul>
-            <p>© 2022 STREAMIT. All Rights Reserved. All videos and shows on this platform are trademarks of, and all related images and content are the property of, Streamit Inc. Duplication and copy of this is strictly prohibited. All rights reserved.</p>
+            <p>This Movie Database Management System project was developed by Rakesh, Pannag, and Puneeth. The project aims to provide a user-friendly platform for users to explore, manage, and review movies. With features like user management, movie listings, browsing, and a review system, it offers a comprehensive solution for movie enthusiasts. The team collaborated to design an efficient and scalable system, focusing on delivering an intuitive user experience and robust functionality.</p>
           </div>
           <div className='box'>
             <h3>Follow Us</h3>
@@ -25,13 +25,8 @@ const Footer = () => {
             <i className='fab fa-instagram'></i>
           </div>
           <div className='box'>
-            <h3>Streamit App</h3>
-            <div className='img flexSB'>
-              <img src='https://img.icons8.com/color/48/000000/apple-app-store--v3.png' />
-              <span>App Store</span>
-              <img src='https://img.icons8.com/fluency/48/000000/google-play.png' />
-              <span>Google Play Store</span>
-            </div>
+            <h3>movie database</h3>
+            
           </div>
         </div>
       </footer>
